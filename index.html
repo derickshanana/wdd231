@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WDD 231 Course Home Page for Derick Shanana" />
+    <meta name="author" content="Derick Shanana" />
+    <title>WDD 231 - Course Home Page</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+
+    <!-- JavaScript Files -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/derick-photo.jpg" alt="Portrait of Derick Shanana" />
+        <h1><span>Derick Shanana</span></h1>
+        <button id="hamburgerBtn" aria-label="Toggle Menu">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="final/index.html">Final</a></li>
+                <li><a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></li>
+                <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>Welcome</h2>
+            <p>This is the course home page for WDD 231 - Frontend Web Development I. Here you'll find project links,
+                dynamic course data, and personal portfolio information.</p>
+        </section>
+
+        <section id="courseSection">
+            <h2>Web and Computer Programming Certificate Courses</h2>
+            <div id="courseControls">
+                <button id="allBtn">All Courses</button>
+                <button id="wddBtn">WDD Courses</button>
+                <button id="cseBtn">CSE Courses</button>
+            </div>
+            <div id="courseCards"></div>
+            <p>Total Credits Displayed: <span id="creditTotal">0</span></p>
+        </section>
+
+        <section>
+            <h2>About Me</h2>
+            <p>I'm a passionate software development student from Bulawayo, Zimbabwe. This page showcases my work
+                throughout the WDD 231 course, including responsive design and JavaScript-driven features.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Derick Shanana, Zimbabwe</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
