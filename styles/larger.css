@@ -1,17 +1,59 @@
-/* Larger screen styles */
-nav ul {
-    display: flex !important;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-}
+/* large.css - styles for screens 640px and wider */
+@media (min-width: 640px) {
 
-nav button {
-    display: none;
-}
+    body {
+        padding: 0 2rem;
+    }
 
-main {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: left;
+    #menu-toggle {
+        display: none;
+        /* Hide hamburger on larger screens */
+    }
+
+    .nav-list {
+        display: flex !important;
+        background: none;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .nav-list li {
+        border: none;
+    }
+
+    .nav-list li a {
+        padding: 1rem 1.5rem;
+        color: #333;
+        background: none;
+    }
+
+    .nav-list li a:hover,
+    .nav-list li a.active {
+        color: #ff6600;
+        background: none;
+    }
+
+    header {
+        padding: 2rem 0;
+    }
+
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #course-filters {
+        margin-bottom: 2rem;
+    }
+
+    .course-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .course-card>p {
+        flex: 1 1 40%;
+        margin: 0 1rem;
+    }
 }

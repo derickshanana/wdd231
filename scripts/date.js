@@ -1,8 +1,6 @@
-// Set current year
-const yearSpan = document.getElementById("currentyear");
-const currentYear = new Date().getFullYear();
-yearSpan.textContent = currentYear;
+// date.js
+const yearSpan = document.getElementById('year');
+const lastModifiedParagraph = document.getElementById('lastModified');
 
-// Set last modified date
-const lastModified = document.lastModified;
-document.getElementById("lastModified").textContent = `Last Modified: ${lastModified}`;
+yearSpan.textContent = new Date().getFullYear();
+lastModifiedParagraph.textContent = `Last Modified: ${document.lastModified}`;
