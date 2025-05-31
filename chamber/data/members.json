@@ -1,0 +1,87 @@
+{
+    "members": [
+        {
+            "name": "GoDigital Zimbabwe",
+            "address": "Sterling House, J. moyo St and 8th Ave, Jason Moyo St, Bulawayo",
+            "phone": "(263) 78 605 0034",
+            "url": "http://hwangenationalpark.org.zw/cm-business/godigital-zimbabwe/",
+            "image": "godig.png",
+            "membership_level": "Gold",
+            "tagLine": "Your trusted partner in success"
+        },
+        {
+            "name": "Meshmild Consulting Company Pvt Ltd",
+            "address": "67 Plumtree Rd, Bulawayo",
+            "phone": "(263) 77 819 9118",
+            "url": "http://www.xyzsolutions.com",
+            "image": "mesh.png",
+            "membership_level": "Silver",
+            "tagLine": "Creation, Growth, Sustainability, Evolution"
+        },
+        {
+            "name": "Econet Wireless",
+            "address": "Head Office, 20th Avenue, R. Mugabe, Bulawayo",
+            "phone": "(263) 77 406 0314",
+            "url": "http://www.econetwireless.com",
+            "image": "econet.png",
+            "membership_level": "Gold",
+            "tagLine": "Inspired to change your world"
+        },
+        {
+            "name": "Dhliwayo J Investments",
+            "address": "118 G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "http://www.dhliwayo.co.zw",
+            "image": "dhli.png",
+            "membership_level": "Silver",
+            "tagLine": "Your Vision Our Solutions"
+        },
+        {
+            "name": "ZB Bank",
+            "address": "63 G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "http://www.zb.co.zw",
+            "image": "zb.png",
+            "membership_level": "Gold",
+            "tagLine": "Your Vision Our Solutions"
+        },
+        {
+            "name": "Standard Chartered",
+            "address": "67 G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "http://www.stanchartered.co.zw",
+            "image": "stanchartered.png",
+            "membership_level": "Silver",
+            "tagLine": "Your Vision Our Solutions"
+        },
+        {
+            "name": "MBCA Bank",
+            "address": "G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "http://www.mbca.co.zw",
+            "image": "mbca.png",
+            "membership_level": "Gold",
+            "tagLine": "Your Vision Our Solutions"
+        }
+    ],
+    "events": [
+        {
+            "name": "Economic Outlook 2021",
+            "date": "14th February 2024",
+            "location": "Bulawayo",
+            "description": "Annual event discussing the economic outlook for the upcoming year."
+        },
+        {
+            "name": "Business Networking Dinner",
+            "date": "25th May 2024",
+            "location": "Harare",
+            "description": "A networking event bringing together business leaders from various sectors."
+        },
+        {
+            "name": "Tech Innovations Conference",
+            "date": "10th August 2024",
+            "location": "Bulawayo",
+            "description": "Conference showcasing the latest technological innovations."
+        }
+    ]
+}

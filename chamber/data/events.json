@@ -1,0 +1,20 @@
+{
+    "events": [
+        {
+            "date": "15 September 2025",
+            "name": "Business Networking Event"
+        },
+        {
+            "date": "20 July 2025",
+            "name": "Community Clean-Up Day"
+        },
+        {
+            "date": "25 July 2025",
+            "name": "Local Farmers Market"
+        },
+        {
+            "date": "2025-07-30",
+            "name": "Charity Fundraiser"
+        }
+    ]
+}

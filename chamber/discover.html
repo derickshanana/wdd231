@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover - Economic Development Digest Chamber of Commerce</title>
+    <meta name="description" content="Chamber of Commerce for WDD231">
+    <meta name="author" content="Francina Shanana">
+    <!-- Link to Normalize.css or Reset CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
+     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="Economic Development Digest Chamber of Commerce">
+     <meta property="og:type" content="website">
+     <meta property="og:description" content="Chamber of Commerce for WDD231">
+     <meta property="og:image" content="Link to chamber site">
+     <meta property="og:URL" content="URL of your https://github.com/derickshanana/wdd231/blob/main/chamber">
+ </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/1logo.png" alt="Economic Development Digest Chamber of Commerce">
+            <h1>Economic Development Digest Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="discover-container">
+        <aside class="sidebar">
+            <div class="visitor-message" id="visitor-message"></div>
+            <div class="country-demographics">
+                <h3>Country Demographics</h3>
+                <p><strong>Population:</strong> 15 million</p>
+                <p><strong>Capital:</strong> Harare</p>
+                <p><strong>Official Languages:</strong> Shona, Ndebele, English</p>
+            </div>
+            <div class="statistical-data">
+                <h3>Statistical Data</h3>
+                <p><strong>GDP (nominal):</strong> $30 billion</p>
+                <p><strong>Human Development Index (HDI):</strong> 0.56 (Medium)</p>
+                <p><strong>Unemployment Rate:</strong> 5.2%</p>
+            </div>
+            <div class="events">
+                <h3>Events</h3>
+                <ul id="events-list">
+                    <!-- Event items will be dynamically inserted here -->
+                </ul>
+            </div>
+            <div class="attractions">
+                <h3>Attractions</h3>
+                <p>Bulawayo, located in Zimbabwe, is the country's second-largest city and an important economic and cultural hub. Known as the "City of Kings" or "Kontuthu Ziyathunqa" in the Ndebele language, Bulawayo has a rich history and vibrant atmosphere. Bulawayo was established in the 19th century by King Lobengula, the Ndebele king, and quickly grew as a major center of trade and commerce. The city has a blend of colonial and indigenous heritage, reflected in its architecture, museums, and cultural sites. Visitors can explore historical landmarks like the Bulawayo Railway Museum, the Natural History Museum, and the Amakhosi Cultural Centre. The city has a lively arts scene, with theaters, galleries, and music venues showcasing Zimbabwean talent. The annual Zimbabwe International Trade Fair (ZITF) held in Bulawayo is a major event that attracts visitors and businesses from around the world.</p>
+            </div>
+            <div class="calendar">
+                <h3>Continuous Calendar</h3>
+                <div id="calendar"></div>
+            </div>
+        </aside>
+        <section class="gallery">
+            <h2>Local Photos of Interest</h2>
+            <figure>
+                <img src="images/1pic.jpeg" data-src="images/1pic.jpeg" alt="Photo 1" class="lazyload" loading="lazy">
+                <figcaption>Small Businesses</figcaption>
+            </figure>
+            <figure>
+                <img src="images/2pic.jpeg" data-src="images/2pic.jpeg" alt="Photo 2" class="lazyload" loading="lazy">
+                <figcaption>Hwange National Park</figcaption>
+            </figure>
+            <figure>
+                <img src="images/3pic.jpg" data-src="images/3pic.jpg" alt="Photo 3" class="lazyload" loading="lazy">
+                <figcaption>Women in Business</figcaption>
+            </figure>
+            <figure>
+                <img src="images/community.jpg" data-src="images/community.jpg" alt="Photo 4" class="lazyload" loading="lazy">
+                <figcaption>Community in Action</figcaption>
+            </figure>
+            <figure>
+                <img src="images/victoria-falls.jpg" data-src="images/victoria-falls.jpg" alt="Photo 5" class="lazyload" loading="lazy">
+                <figcaption>Victoria Falls</figcaption>
+            </figure>
+            <figure>
+                <img src="images/4pic.jpg" data-src="images/4pic.jpg" alt="Photo 6" class="lazyload" loading="lazy">
+                <figcaption>Nandos at the heart of the City</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <address>
+                Economic Development Digest Chamber of Commerce<br>
+                No. 10 J. Moyo<br>
+                15th Avenue<br>
+                <a href="mailto:info@economicdevdigestcoc.org">info@economicdevdigestcoc.org</a><br>
+                (263) 774320424
+            </address>
+            <div class="social-media">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram.jpg" alt="Instagram"></a>
+                <a href="#"><img src="images/linkedin.jpg" alt="LinkedIn"></a>
+                <a href="#"><img src="images/twt.jpg" alt="Twitter"></a>
+            </div>
+            <div class="development-info">
+                <!-- Developer and last modified info will be dynamically inserted here -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/discover.js"></script>
+</body>
+</html>

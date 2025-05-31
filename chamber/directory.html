@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economic Development Digest Chamber of Commerce</title>
+    <meta name="description" content="Chamber of Commerce for WDD231">
+    <meta name="author" content="Francina Shanana">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
+     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="Economic Development Digest Chamber of Commerce">
+     <meta property="og:type" content="website">
+     <meta property="og:description" content="Chamber of Commerce for WDD231">
+     <meta property="og:image" content="Link to chamber site">
+     <meta property="og:URL" content="URL of your https://github.com/Francina523/wdd231/blob/main/chamber">
+ </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/1logo.png" alt="Economic Development Digest Chamber of Commerce">
+            <h1>Economic Development Digest Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="images/city.jpg" alt="scalable, responsive hero image">
+        <button class="cta-link">Keynote Tickets</button>
+    </section>
+
+    <main>
+        <section class="info-section">
+            <div class="upcoming-events">
+                <h2>Upcoming Events</h2>
+                <div id="events-list">
+                    <!-- Events will be dynamically inserted here -->
+                </div>
+            </div>
+            <div class="current-weather">
+                <h2>Current Weather</h2>
+                <div id="weather-info">
+                    <!-- Weather data will be dynamically inserted here -->
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <h2>Weather Forecast</h2>
+                <div id="forecast-info">
+                    <!-- Forecast data will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="businesses">
+            <h2>Featured Businesses</h2>
+            <div class="member-grid" id="member-grid">
+                <!-- Members will be dynamically inserted here -->
+            </div>
+            <ul class="member-list" style="display: none;">
+                <!-- Members will be dynamically inserted here as list -->
+            </ul>
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <address>
+                Economic Development Digest Chamber of Commerce<br>
+                No. 10 J. Moyo<br>
+                15th Avenue<br>
+                <a href="mailto:info@economicdevdigestcoc.org">info@economicdevdigestcoc.org</a><br>
+                (263) 774320424
+            </address>
+            <div class="social-media">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram.jpg" alt="Instagram"></a>
+                <a href="#"><img src="images/linkedin.jpg" alt="LinkedIn"></a>
+                <a href="#"><img src="images/twt.jpg" alt="Twitter"></a>
+            </div>
+            <div class="development-info">
+                <!-- Developer and last modified info will be dynamically inserted here -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    </body>
+</html>
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Economic Development Digest Chamber of Commerce</title>
+    <meta name="description" content="Chamber of Commerce for WDD231">
+    <meta name="author" content="Francina Shanana">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property=" of: title" content=" Join Us - Economic Development Digest Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Chamber of Commerce for WDD231">
+    <meta property="og:image" content="Link to chamber site">
+    <meta property="og:URL" content="https://github.com/derickshanana/wdd231/edit/main/chamber">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/1logo.png" alt="Economic Development Digest Chamber of Commerce">
+            <h1>Economic Development Digest Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="images/workingtogether.jpg" alt="scalable, responsive hero image">
+    </section>
+
+    <main>
+        <section class="join-us">
+            <h2>Join Us</h2>
+            <p>Become a member of the Economic Development Digest Chamber of Commerce and enjoy the benefits of networking, resources, and support for your business. Fill out the form below to get started.</p>
+            <form action="thankyou.html" method="get">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" title="First Name" autocomplete="given-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" title="Last Name" autocomplete="family-name" required>
+
+                <label for="org-title">Organizational Title:</label>
+                <input type="text" id="org-title" name="org-title" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" title="Email" autocomplete="email" placeholder="example@example.com" required>
+
+                <label for="phone">Mobile Phone Number:</label>
+                <input type="tel" id="phone" name="phone" title="Mobile Phone" autocomplete="tel" required>
+
+                <label for="business">Business Name:</label>
+                <input type="text" id="business" name="business" title="Business Name" autocomplete="organization" required>
+
+                <label for="membership">Membership Level:</label>
+                <select id="membership" name="membership" title="Membership Level" required>
+                    <option value="" disabled selected>Select your membership level</option>
+                    <option value="NP">NP Membership</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+                <button type="button" id="learn-more">Learn more about membership levels</button>
+
+                <label for="description">Business Description:</label>
+                <textarea id="description" name="description" title="Business Description" rows="4"></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <div id="membership-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Membership Levels and Benefits</h3>
+                <div class="membership-cards">
+                    <div class="card" id="np">
+                        <h4>NP Membership</h4>
+                        <p>No fee, special events, training</p>
+                    </div>
+                    <div class="card" id="bronze">
+                        <h4>Bronze Membership</h4>
+                        <p>Basic benefits, event discounts</p>
+                    </div>
+                    <div class="card" id="silver">
+                        <h4>Silver Membership</h4>
+                        <p>Additional benefits, advertising opportunities</p>
+                    </div>
+                    <div class="card" id="gold">
+                        <h4>Gold Membership</h4>
+                        <p>All benefits, priority support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <address>
+                Economic Development Digest Chamber of Commerce<br>
+                No. 10 J. Moyo<br>
+                15th Avenue<br>
+                <a href="mailto:info@economicdevdigestcoc.org">info@economicdevdigestcoc.org</a><br>
+                (263) 774320424
+            </address>
+            <div class="social-media">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram.jpg" alt="Instagram"></a>
+                <a href="#"><img src="images/linkedin.jpg" alt="LinkedIn"></a>
+                <a href="#"><img src="images/twt.jpg" alt="Twitter"></a>
+            </div>
+            <div class="development-info">
+                <!-- Developer and last modified info will be dynamically inserted here -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</body>
+</html>
+>>>>>>> 14127f623cdfbed6b9437a9a81d3687ab5cbe320

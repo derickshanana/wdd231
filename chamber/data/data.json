@@ -1,0 +1,88 @@
+{
+    "members": [
+        {
+            "name": "GoDigital Zimbabwe",
+            "address": "Sterling House, J. moyo St and 8th Ave, Jason Moyo St, Bulawayo",
+            "phone": "(263) 78 605 0034",
+            "url": "http://hwangenationalpark.org.zw/cm-business/godigital-zimbabwe/",
+            "image": "godig.png",
+            "membership_level": "Gold",
+            "tagLine": "Your trusted partner in success"
+        },
+        {
+            "name": "Meshmild Consulting Company Pvt Ltd",
+            "address": "67 Plumtree Rd, Bulawayo",
+            "phone": "(263) 77 819 9118",
+            "url": "http://www.xyzsolutions.com",
+            "image": "mesh.png",
+            "membership_level": "Silver",
+            "tagLine": "Creation, Growth, Sustainability, Evolution"
+        },
+        {
+            "name": "Econet Wireless",
+            "address": "Head Office, 20th Avenue, R. Mugabe, Harare",
+            "phone": "(263) 77 406 0314",
+            "url": "http://www.econetwireless.com",
+            "image": "econet.png",
+            "membership_level": "Gold",
+            "tagLine": "Inspired to change your world"
+        },
+        {
+            "name": "Marketers Association of Zimbabwe",
+            "address": "118 G Silundika Street, Harare",
+            "phone": "(263) 71 768 2222",
+            "url": "https://www.maz.co.zw",
+            "image": "maz.png",
+            "membership_level": "Silver",
+            "tagLine": "Synergies for the Future"
+        },
+        {
+            "name": "Mukuru Zimbabwe",
+            "address": "63 G Silundika Street, Harare",
+            "phone": "(263) 8677009604",
+            "url": "https://www.mukuru.com",
+            "image": "mukuru.png",
+            "membership_level": "Gold",
+            "tagLine": "Your Vision Our Solutions"
+        },
+        {
+            "name": "Old Mutual",
+            "address": "67 G Silundika Street, Harare",
+            "phone": "(263) 433",
+            "url": "https://www.oldmutual.co.zw",
+            "image": "oldmutual.png",
+            "membership_level": "Silver",
+            "tagLine": "Solutions to your Financial Needs"
+        },
+        {
+            "name": "Nedbank Corporate Bank",
+            "address": "J. Nkomo, Bulawayo",
+            "phone": "(263) 292-76278",
+            "url": "https://www.nedbank.co.zw",
+            "image": "nedbank.jpg",
+            "membership_level": "Gold",
+            "tagLine": "Welcome"
+        }
+    ],
+    "events": [
+        {
+            "name": "Economic Outlook 2021",
+            "date": "24th July 2024",
+            "location": "Bulawayo",
+            "description": "Annual event discussing the economic outlook for the upcoming year."
+        },
+        {
+            "name": "Business Networking Dinner",
+            "date": "25th September 2024",
+            "location": "Harare",
+            "description": "A networking event bringing together business leaders from various sectors."
+        },
+        {
+            "name": "Tech Innovations Conference",
+            "date": "10th October 2024",
+            "location": "Bulawayo",
+            "description": "Conference showcasing the latest technological innovations."
+        }
+    ]
+}
+
