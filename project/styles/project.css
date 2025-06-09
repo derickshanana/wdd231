@@ -1,0 +1,522 @@
+:root {
+    --main-heading-color: #336633;
+    --body-text-color: #444444;
+    --background-color: #9DB879;
+    --footer-background-color: #A5BE00
+    --accent-color: #ffcc00;
+    --main-heading-font: 'Roboto', sans-serif;
+    --body-text-font: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--body-text-font);
+    color: var(--body-text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--main-heading-color);
+    color: white;
+    font-family: var(--main-heading-font);
+    
+}
+
+header .logo img {
+    max-height: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+    max-width: 1200px; /* Ensure the hero section has the same max-width as the header and nav */
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 1200px; /* Ensure the hero section has the same max-width as the header and nav */
+    
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust text color for readability */
+    background-color:rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.hero-content h1 {
+    font-size: 2.5em; /* Adjust the font size as needed */
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em; /* Adjust the font size as needed */
+    margin: 10px 0;
+}
+
+.hero-content .cta {
+    background-color: #28a745; /* Adjust button color as needed */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+section {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/* Block styling for mission and goals section */
+.mission-goals,
+.recent-highlights, .team-grid {
+    background-color: #f4e285; /* Light background for blocks */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the block */
+    margin: 20px 0; /* Space around the block */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mission-goals h2,
+.recent-highlights h2, .team-grid h2 {
+    font-family: var(--main-heading-font);
+    color: var(--main-heading-color);
+    font-size: 1.8em; /* Adjust as needed */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.mission-goals p,
+.recent-highlights p, .team-grid p {
+    font-size: 1.1em; /* Adjust as needed */
+}
+/* Block styling for recent highlights */
+.recent-highlights {
+    background-color: #f4e285; /* Light background for blocks */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the block */
+    margin: 20px 0; /* Space around the block */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.recent-highlights h2 {
+    font-family: var(--main-heading-font);
+    color: var(--main-heading-color);
+    font-size: 1.8em; /* Adjust as needed */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.recent-highlights p {
+    font-size: 1.1em; /* Adjust as needed */
+}
+
+/* Carousel styling */
+.carousel {
+    display: grid; /* Use CSS grid for layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width */
+    gap: 10px; /* Space between images */
+    margin-top: 20px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* Ensure images cover their container */
+}
+
+.carousel {
+    /* Styling for carousel, if applicable */
+    margin-top: 20px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.carousel-item {
+    min-width: 300px;
+    margin: 10px;
+}
+
+
+/* styles/project.css */
+
+.weather-forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.weather-forecast h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.weather-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.weather-column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.weather-column h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card {
+    padding: 20px;
+    background-color:#8ECAE6;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.forecast-cards {
+    display: flex;
+    background-color:#8ECAE6;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+section {
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #f4e285; /* Light background for blocks */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section h1,
+section h2 {
+    font-family: var(--main-heading-font);
+    color: var(--main-heading-color);
+    margin-bottom: 20px; /* Space below headings */
+}
+
+section p {
+    font-size: 1.1em; /* Adjust font size as needed */
+    line-height: 1.6; /* Adjust line height for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    color: #666;
+}
+
+.garden-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin between sections */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.garden-image {
+    flex: 1;
+    padding-right: 20px; /* Adjust spacing between image and info */
+}
+
+.garden-image img {
+    width: 100%; /* Ensure image takes full width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.garden-info {
+    flex: 2;
+    padding-left: 20px; /* Adjust spacing between image and info */
+}
+
+/* Optional: Style for garden-info elements */
+.garden-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.garden-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Adjustments for the resource cards and join us form */
+.resource-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.resource-card {
+    flex-basis: calc(50% - 20px);
+    background-color: #f4e285;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.membership-benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    background-color: #f4e285;
+    padding: 2em;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.membership-benefits .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.membership-benefits .benefits-card, 
+.membership-benefits .membership-card {
+    background-color: #f4e285;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.membership-benefits h2 {
+    color: var(--main-heading-color);
+}
+
+.membership-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.join-us {
+    background-color: #f4e285;
+    padding: 2em;
+    border-radius: 8px;
+    margin-top: 2em;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.join-us form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#events-list {
+    background-color: #f4e285;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.event-item {
+    background-color: #fefae0;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-item h3 {
+    color: var(--main-heading-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #336633;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2a5225;
+}
+/* Footer styling*/
+
+footer {
+    background-color: #BAD600; /* Footer background color */
+    color: #0C1D31;
+    padding: 20px;
+    text-align: center;
+}   
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer address {
+    text-align: left;
+}
+
+.footer-content .social-media {
+    text-align: center;
+}
+
+.footer-content .development-info {
+    text-align: right;
+}
+
+footer a {
+    color: var(--email-color); /* Assuming --email-color is defined elsewhere */
+    text-decoration: none;
+}
+
+footer .social-media img {
+    height: 24px;
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    .carousel {
+        flex-direction: column;
+    }
+
+    .garden-location {
+        flex-direction: column;
+    }
+
+    .garden-location .garden-image,
+    .garden-location .garden-info {
+        flex: 1 1 100%;
+    }
+
+    .garden-location .garden-image img {
+        border-radius: 8px 8px 0 0;
+    }
+
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer address,
+    .footer-content .social-media,
+    .footer-content .development-info {
+        margin: 10px 0;
+    }
+}

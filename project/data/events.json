@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "title": "Spring Planting Workshop",
+            "date": "2025-09-15",
+            "time": "10:00 AM - 12:00 PM",
+            "location": "Main Garden",
+            "description": "Join us for a hands-on workshop to learn about spring planting techniques and tips for a successful garden."
+        },
+        {
+            "title": "Community Garden Day",
+            "date": "2025-09-22",
+            "time": "9:00 AM - 2:00 PM",
+            "location": "Westside Garden",
+            "description": "Celebrate Earth Day by helping us plant new trees and shrubs. All ages are welcome!"
+        },
+        {
+            "title": "Organic Pest Control",
+            "date": "2025-07-10",
+            "time": "11:00 AM - 1:00 PM",
+            "location": "Eastside Garden",
+            "description": "Learn about organic methods to keep your garden pest-free without harmful chemicals."
+        },
+        {
+            "title": "Summer Harvest Festival",
+            "date": "2025-08-20",
+            "time": "3:00 PM - 6:00 PM",
+            "location": "Main Garden",
+            "description": "Join us for a fun-filled afternoon with fresh produce, live music, and activities for the whole family."
+        }
+    ]
+}

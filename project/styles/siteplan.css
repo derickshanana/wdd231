@@ -1,0 +1,313 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #336633;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+/* Specific Styles for Sections */
+#site-name {
+    margin-bottom: 2em;
+}
+
+#scenarios ul {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+#color-schema, #typography, #wireframe {
+    margin-bottom: 3em;
+}
+
+#wireframe img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* Header Styles */
+header {
+    background-color: #336633;
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    max-height: 150px; /* Increase size of the logo */
+    margin-right: 10px; /* Add some spacing between logo and site name */
+}
+
+#site-name {
+    display: flex;
+    align-items: center; /* Align site name vertically with logo */
+}
+
+#site-name h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#ffffff
+}
+
+#site-name p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #336633;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#developer-info {
+    font-size: 0.8em;
+}
+
+#last-modified {
+    font-style: italic;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A2E;
+    color: #EAEAEA;
+}
+
+header {
+    background-color: #16213E;
+    color: white;
+    padding: 1em 0;
+}
+
+header .logo {
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #16213E;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Resource and Event Styles */
+.resource, .event, .location {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #fff;
+}
+
+.resource h2, .event h2, .location h2 {
+    margin-top: 0;
+}
+
+/* Join Us Page Specific Styles */
+.join-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 1em;
+    background-color: #0F3460;
+}
+
+.join-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #16213E;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 900px;
+}
+
+.join-image {
+    flex: 1;
+    background: url('path/to/your/image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.join-form {
+    flex: 1;
+    padding: 2em;
+    color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join-form h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.join-form p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.join-form .social-login {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.join-form .social-login button {
+    background-color: #4285F4;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.join-form .social-login button img {
+    margin-right: 0.5em;
+}
+
+.join-form .form-group {
+    margin-bottom: 1em;
+}
+
+.join-form .form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.join-form .form-group input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #EAEAEA;
+    color: #333;
+}
+
+.join-form .form-group input::placeholder {
+    color: #999;
+}
+
+.join-form .form-group .checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.join-form .form-group .checkbox-group input {
+    margin-right: 0.5em;
+}
+
+.join-form button[type="submit"] {
+    padding: 0.75em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.join-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.join-form .create-account {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.join-form .create-account a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.join-form .create-account a:hover {
+    text-decoration: underline;
+}

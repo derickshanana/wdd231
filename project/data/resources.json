@@ -1,0 +1,14 @@
+{
+    "resources": [
+        {
+            "name": "Gardening Tips",
+            "description": "Useful tips for growing your own garden.",
+            "link": "https://www.example.com/gardening-tips"
+        },
+        {
+            "name": "Composting Guide",
+            "description": "Learn how to compost effectively.",
+            "link": "https://www.example.com/composting-guide"
+        }
+    ]
+}

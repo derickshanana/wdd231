@@ -1,0 +1,19 @@
+{
+    "highlights": [
+        {
+            "title": "Spring Planting Workshop",
+            "description": "Join us for a workshop on spring planting techniques.",
+            "image": "images/spring.jpg"
+        },
+        {
+            "title": "Community Garden Harvest",
+            "description": "See the fruits of our labor in the community garden harvest.",
+            "image": "images/harvest.jpg"
+        },
+        {
+            "title": "Organic Gardening Tips",
+            "description": "Learn tips and tricks for organic gardening from our experts.",
+            "image": "images/organic.jpg"
+        }
+    ]
+}
