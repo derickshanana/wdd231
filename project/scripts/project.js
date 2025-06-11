@@ -65,11 +65,13 @@ function loadDeveloperInfo() {
     const developerName = 'Derick Shanana';
     const course = 'WDD 231 at BYU-Idaho';
     const lastModified = document.lastModified;
+    const videoDemo = '  <p><a href="https://www.loom.com/share/d5d3b156956644dfab00221cc82a476b?sid=730ae936-dfd9-4b5e-98af-49112c3497d6" target="_blank" rel="noopener">🎥 Watch Project Demo Video</a></p>';
     
     developerInfo.innerHTML = `
         <p>Developed by: ${developerName}</p>
         <p>Course: ${course}</p>
         <p>Last Modified: ${lastModified}</p>
+        <p>Video Demo: ${videoDemo}</p>
     `;
 }
 
